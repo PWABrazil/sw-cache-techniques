@@ -2,10 +2,10 @@
 
 Here we've implemented some techniques to cache the resources as:
 
-* Cache first
-* Cache only
-* Network first
-* Network only
+* [Cache first](sw.js#L26)
+* [Cache only](sw.js#L25)
+* [Network first](sw.js#L20)
+* [Network only](sw.js#L19)
 
 You can check these implementations in [sw.js](sw.js) file.
 
