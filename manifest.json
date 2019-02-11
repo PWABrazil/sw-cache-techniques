@@ -1,0 +1,10 @@
+{
+    "name": "Service Worker - Cache Techniques",
+    "short_name": "SW - Techniques",
+    "theme_color": "#333",
+    "background_color": "#333",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+}
