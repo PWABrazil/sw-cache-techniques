@@ -7,7 +7,7 @@ Here we've implemented some techniques to cache the resources as:
 * Network first
 * Network only
 
-You can check these implementations in [sw.js](blob/master/sw.js) file.
+You can check these implementations in [sw.js](sw.js) file.
 
 ## See in action
 
