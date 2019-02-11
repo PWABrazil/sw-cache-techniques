@@ -9,7 +9,7 @@ const isLocalhost = Boolean(
 if(true || !isLocalhost && 'serviceWorker' in navigator) {
     navigator.serviceWorker.getRegistrations().then(registrations => {
         if(registrations.length > 0) return registrations;
-        navigator.serviceWorker.register('/sw.js');
+        navigator.serviceWorker.register('/sw-cache-techniques/sw.js');
     });
 
     navigator.serviceWorker.onmessage = function (evt) {

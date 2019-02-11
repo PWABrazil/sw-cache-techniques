@@ -32,26 +32,26 @@ const cacheFirst = (request, forceUpdate = true) => {
 /* SW TECHNIQUES */
 
 const pages = [
-    '/',
-    // '/index.html',
+    '/sw-cache-techniques/',
+    // '/sw-cache-techniques/index.html',
 ];
 const scripts = [
-    '/js/main.js',
-    '/js/sw-register.js',
+    '/sw-cache-techniques/js/main.js',
+    '/sw-cache-techniques/js/sw-register.js',
 ];
 const styles = [
-    '/css/styles.css',
+    '/sw-cache-techniques/css/styles.css',
 ];
 const images = [
-    "/img/icon-512x512.png",
-    "/img/icon-152x152.png",
-    "/img/icon-167x167.png",
-    "/img/icon-180x180.png",
-    "/img/favicon.svg",
+    '/sw-cache-techniques/img/icon-512x512.png',
+    '/sw-cache-techniques/img/icon-152x152.png',
+    '/sw-cache-techniques/img/icon-167x167.png',
+    '/sw-cache-techniques/img/icon-180x180.png',
+    '/sw-cache-techniques/img/favicon.svg',
 ];
 const resources = [
-    '/manifest.json',
-    '/browserconfig.xml',
+    '/sw-cache-techniques/manifest.json',
+    '/sw-cache-techniques/browserconfig.xml',
 ];
 
 let firstInstallation = false;
